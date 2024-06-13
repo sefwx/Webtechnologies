@@ -1,0 +1,51 @@
+body {
+  font-family: 'Roboto Mono', monospace;
+  background-color: #00f;
+}
+
+h1 {
+  color: white;
+}
+
+.playlist {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.tracks-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Ensures 3 columns */
+  gap: 20px;
+}
+
+.track-item {
+  list-style: none;
+  padding: 10px;
+  border: 1px solid #ff72e5;
+  border-radius: 8px;
+  background: #ffe6fb;
+}
+
+.track-item audio {
+  height: 20px;
+  width: 100%;
+ 
+}
+
+/*thisisnotworking*/
+audio {
+  border-radius: 0; /* Remove border radius */
+  border: none; /* Optional: Removes any border */
+  background-color: #F1F3F4;
+}
+
+.asdf {
+  width: 200px;
+  height: auto;
+  align-items: center;
+}
+
+p {
+  color: #00f;
+}
